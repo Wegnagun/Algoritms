@@ -1,5 +1,5 @@
 def recursion_binary_search(lst, num, low, high):
-    """ Бинарный поиск через рекурсию """
+    """ Бинарный поиск через рекурсию. """
     if high <= low:
         return 'Нет такого числа'
     mid = (low + high) // 2

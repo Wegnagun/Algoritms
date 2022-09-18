@@ -1,9 +1,8 @@
 def binary_search(lst, num, low, high):
-    """ Бинарный поиск через while """
-    nums = sorted(lst)
+    """ Бинарный поиск через while. """
     while low < high:
         mid = (low + high) // 2
-        target = nums[mid]
+        target = lst[mid]
         if target == num:
             return mid
         elif target < num:
